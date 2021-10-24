@@ -151,8 +151,10 @@ input, select, textarea {
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			outline: none;
+			border-bottom-color: none;
 			color: #f2849e !important;
+			
 		}
 
 	strong, b {
