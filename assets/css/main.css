@@ -18,12 +18,13 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 0;
+	margin: auto;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	display:block;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -231,6 +232,7 @@ input, select, textarea {
 
 		h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 			display: none;
+			
 		}
 
 	}
@@ -1794,6 +1796,7 @@ input, select, textarea {
 
 		header p {
 			margin-top: 0;
+			
 		}
 
 	}
@@ -2320,6 +2323,9 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
 		}
 
 		.image.left, .image.right {
